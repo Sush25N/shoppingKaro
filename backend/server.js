@@ -23,9 +23,6 @@ app.get('/api/products/:id', (req, res) => {
     res.json(product);
 });
 
-app.get('/api/products/name', (req, res) => {
-    res.json(product.name);
-})
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);

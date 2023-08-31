@@ -14,6 +14,7 @@
   "author": "Sushrut Gabhane",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.18.2",
     "mongodb": "^6.0.0",
     "mongoose": "^7.4.5"
