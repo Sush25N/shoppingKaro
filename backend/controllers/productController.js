@@ -3,7 +3,7 @@ import React from 'react'
 const productController = () => {
   return (
     <div>
-      {/* Controller logic will be written here */}
+      {/*Product Controller logic will be written here */}
     </div>
   )
 }
