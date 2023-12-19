@@ -8,7 +8,7 @@ import "./header.css";
 const Header = () => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
+      <Navbar bg="dark" expand="md" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
@@ -39,3 +39,5 @@ const Header = () => {
 };
 
 export default Header;
+
+// variant = "dark";
